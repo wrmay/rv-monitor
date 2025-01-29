@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+package rvmonitor;
+
+message RVState {
+  required string id = 1;
+  optional sint32 temperature_farenheit = 11;
+}
